@@ -29,7 +29,7 @@ The file is to be run in the same directory in which the data has been unzipped.
 - The script reads *activity_labels and features* from the *UCI HAR Dataset* folder into separate tables . This is used to give meaningful names to the numbers in *y_test* , *y_train* and meaningful variable names (coloumn headers) to the data in *X_train* & *X_test*.
 - Names are assigned to the coloumn headers of the *X_train* & *X_test* from *features*. Fixed names *subject* and *activity* are assigned to y and subject.
 - A data frame is created using bind_rows on the corresponding train and test tables within the data.frame command
-- Only the measurements of mean and standard deviation are extracted from the 561 variables using contains("mean") and contains("std") within the select command. We are left with 88 variables, including subject and activity.
+- Only the measurements of mean and standard deviation are extracted from the 561 variables using contains("mean") and contains("std") within the select command. We are left with 88 variables, including subject and activity. At this point the coloumns get rearranged(The mean coloumns come first followed by the standard deviation coloumns)
 - Replace the numbers in the activity coloumn with meaningful names
 - The data set is now grouped by activity and subject [180 rows]
 - Use summarise_each to find mean of each variable for each activity and each subject.
