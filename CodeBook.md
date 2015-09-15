@@ -11,7 +11,7 @@
 2.	subject
   *The subject identifier. There are 30 subjects *
   - 1:30 
-  ### The feature vectors(of 561) that contain the word "mean" (52)
+  - BELOW ### The feature vectors(of 561) that contain the word "mean" (52)
 3.	tBodyAcc-mean()-X
 4.	tBodyAcc-mean()-Y
 5.	tBodyAcc-mean()-Z
@@ -65,7 +65,7 @@
 53.	angle(X,gravityMean)
 54.	angle(Y,gravityMean)
 55.	angle(Z,gravityMean)
-  ### The feature vectors(of 561) that contain the word "std" (32)
+  - BELOW ### The feature vectors(of 561) that contain the word "std" (32)
 56.	tBodyAcc-std()-X
 57.	tBodyAcc-std()-Y
 58.	tBodyAcc-std()-Z
