@@ -2,11 +2,16 @@
 The Project for Getting and Cleaning Data
 
 Data is sourced from : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-## Description of the data : 
+
+## Description of the data :
+
 Number of subjects : 30 volunteers
+
 Activities : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
 A 561-feature vector (561 variables) : Using the embedded accelerometer and gyroscope of the Samsung Galaxy S II, they captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
 ## Objective :
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -16,6 +21,7 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
 
 ## Analysis Script File :
 run_analysis.R
+
 The file is to be run in the same directory in which the data has been unzipped.
 
 ## What the script does :
